@@ -14,6 +14,8 @@
 		2090E1831B56BB2F00833C77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2090E1821B56BB2F00833C77 /* Images.xcassets */; };
 		2090E1861B56BB2F00833C77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2090E1841B56BB2F00833C77 /* LaunchScreen.xib */; };
 		2090E1921B56BB2F00833C77 /* TasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E1911B56BB2F00833C77 /* TasksTests.m */; };
+		2090E19D1B56BE3700833C77 /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E19C1B56BE3700833C77 /* NewTaskViewController.m */; };
+		2090E1A01B56BE4E00833C77 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E19F1B56BE4E00833C77 /* TaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2090E18B1B56BB2F00833C77 /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2090E1901B56BB2F00833C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2090E1911B56BB2F00833C77 /* TasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksTests.m; sourceTree = "<group>"; };
+		2090E19B1B56BE3700833C77 /* NewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTaskViewController.h; sourceTree = "<group>"; };
+		2090E19C1B56BE3700833C77 /* NewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
+		2090E19E1B56BE4E00833C77 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		2090E19F1B56BE4E00833C77 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				2090E1821B56BB2F00833C77 /* Images.xcassets */,
 				2090E1841B56BB2F00833C77 /* LaunchScreen.xib */,
 				2090E1751B56BB2F00833C77 /* Supporting Files */,
+				2090E19B1B56BE3700833C77 /* NewTaskViewController.h */,
+				2090E19C1B56BE3700833C77 /* NewTaskViewController.m */,
+				2090E19E1B56BE4E00833C77 /* TaskViewController.h */,
+				2090E19F1B56BE4E00833C77 /* TaskViewController.m */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				2090E17E1B56BB2F00833C77 /* ViewController.m in Sources */,
 				2090E17B1B56BB2F00833C77 /* AppDelegate.m in Sources */,
+				2090E1A01B56BE4E00833C77 /* TaskViewController.m in Sources */,
+				2090E19D1B56BE3700833C77 /* NewTaskViewController.m in Sources */,
 				2090E1781B56BB2F00833C77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
